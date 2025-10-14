@@ -18,7 +18,7 @@ class DatabaseSeeder extends Seeder
 
        User::create([
             'name' => 'Admin',
-            'email' => 'admin@example.com',
+            'email' => 'codebyzohaib@gmail.com',
             'id_number' => 'ADMIN-001',
             'date_of_birth' => '1990-01-01',
             'mobile_number' => '0500000000',
