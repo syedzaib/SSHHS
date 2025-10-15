@@ -10,10 +10,10 @@
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
-         <link rel="stylesheet" href="https://themewagon.github.io/windster/app.css">
-         <link rel="apple-touch-icon" sizes="180x180" href="https://themewagon.github.io/windster/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="https://themewagon.github.io/windster/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="https://themewagon.github.io/windster/favicon-16x16.png">
+         <link rel="stylesheet" href="{{  asset('assets/css/style.css')  }}">
+         <link rel="apple-touch-icon" sizes="180x180" href="{{  asset('assets/images/apple-touch-icon.png')  }}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{  asset('assets/images/favicon-32x32.png')  }}">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{  asset('assets/images/favicon-16x16.png')  }}">
 
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -40,7 +40,7 @@
         @include('partials.footer')
         </div>
     </div>
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-    <script src="https://themewagon.github.io/windster/app.bundle.js"></script>
+    <script async defer src="{{  asset('assets/js/buttons.js')  }}"></script>
+    <script src="{{  asset('assets/js/themeapp.js')  }}"></script>
     </body>
 </html>
