@@ -16,7 +16,7 @@
         <link rel="icon" type="image/png" sizes="16x16" href="{{  asset('assets/images/favicon-16x16.png')  }}"> --}}
 
         <!-- Scripts -->
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
+        {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
     </head>
     <body class="font-sans text-gray-900 antialiased">
         <div class="min-h-screen flex flex-col sm:justify-center items-center py-6">
